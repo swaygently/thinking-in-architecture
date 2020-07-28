@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: grpc-order-service
+  profiles:
+    active: ${apollo_profile}
+
+# spring的日志
+debug: true
+
+logging:
+  level:
+    # io.grpc
+    io.grpc: DEBUG

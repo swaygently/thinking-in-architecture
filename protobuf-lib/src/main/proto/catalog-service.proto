@@ -1,0 +1,27 @@
+// 商品服务
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.example.lib.proto";
+option java_outer_classname = "CatalogServiceProto";
+option objc_class_prefix = "HLW";
+
+//package protobuf;
+
+// The greeting service definition.
+service CatalogService {
+  // Sends a greeting
+  rpc retrieveSku (SkuRequest) returns (SkuReply) {}
+}
+
+// The request message containing the user's name.
+message SkuRequest {
+  string id = 1;
+}
+
+// The response message containing the greetings
+message SkuReply {
+  string id = 1;
+  string name = 2;
+}
+
