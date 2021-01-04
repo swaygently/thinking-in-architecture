@@ -34,4 +34,4 @@ curl http://10.111.187.15/v2/_catalog
 
 具体可参考
 
-* Minikube(https://kubernetes.io/docs/setup/learning-environment/minikube/)
+* [Minikube](https://kubernetes.io/docs/setup/learning-environment/minikube/)

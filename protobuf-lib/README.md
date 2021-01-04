@@ -6,9 +6,9 @@ protobuf 定义文件
 
 ## 版本号
 
-grpc: 1.30.0
-protobuf: 3.12.0
-protoc: 3.12.0
+* grpc: 1.30.0
+* protobuf: 3.12.0
+* protoc: 3.12.0
 
 
 ## 
@@ -38,5 +38,7 @@ mvn protobuf:compile
 mvn protobuf:compile-custom
 ```
 
-(protobuf maven插件使用参考)[ttps://www.xolstice.org/protobuf-maven-plugin/usage.html]
-(Protocol Buffers)[https://developers.google.com/protocol-buffers/docs/overview]
+## 参考
+
+* [protobuf maven插件使用参考](ttps://www.xolstice.org/protobuf-maven-plugin/usage.html)
+* [Protocol Buffers](https://developers.google.com/protocol-buffers/docs/overview)

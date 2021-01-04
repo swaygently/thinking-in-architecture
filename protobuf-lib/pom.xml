@@ -6,7 +6,7 @@
 		<groupId>thinking-in-architecture</groupId>
 		<artifactId>spring-boot-samples</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>protobuf-lib</artifactId>
 
@@ -106,7 +106,7 @@
 				</executions>
 			</plugin>
 
-      <!-- 版本冲突信息打印 -->
+			<!-- 版本冲突信息打印 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
